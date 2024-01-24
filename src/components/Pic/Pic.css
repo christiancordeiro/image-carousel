@@ -1,0 +1,13 @@
+img {
+  max-width: 700px;
+  width: 700px;
+  border-radius: 0.4rem;
+  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.466);
+}
+
+@media (max-width: 800px) {
+  img {
+    max-width: 300px;
+    width: 700px;
+  }
+}

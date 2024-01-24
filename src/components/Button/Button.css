@@ -1,0 +1,30 @@
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: none;
+  padding: 15px 32px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+button:hover {
+  background-color: #212121;
+  color: white;
+  transition: 0.2s;
+}
+
+@media (max-width: 800px) {
+  button {
+    width: 36px;
+    height: 36px;
+    padding: 5px 10px;
+    margin: -10px;
+    z-index: 1;
+  }
+}
